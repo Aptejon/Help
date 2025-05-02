@@ -1,0 +1,33 @@
+7 April 2025
+Version 2.1.24 (Out-of-band release)
+With Orbit version 2.1.23 on Monday 14th April, we released a major update to existing Orbit dashboard functionality - dashboard technology elevation. This was a wide ranging update applied to all existing Orbit dashboard functionality.
+
+To further supplement this update, we’re releasing the following patch fixes to address a number of issues encountered when migrating from old to new dashboard technology.
+
+Note: If you have auto-update turned on for Orbit, then the patch will update automatically. If not, please refer to the software releases page on the Apteco portal to download the latest version of Orbit.
+
+Patch fixes
+Dashboards
+Older dashboard definitions with currency variables are now successfully brought through with dashboard migration.
+
+Two dimensional charts with large cardinality no longer cause performance issues when using tile filters.
+
+A theme applied to a dashboard is now successfully represented in all it's associated pie charts.
+
+When you change a dashboard theme, it's now represented accurately in real-time by any associated dashboard visualisations.
+
+You can now view a dashboard successfully even if an associated variable is invalid or has not refreshed.
+
+On a single dimension chart, when you set the ‘Display As’ to ‘Percentage of Series’ and then abbreviate the labels, you’re no longer prevented from viewing that visualisation.
+
+If you edit a dashboard, then log out and discard your changes, an error message is no longer generated.
+
+Dashboard number tiles are now displayed clearly and fully when exported to PDF.
+
+Deleting a dashboard tile after you've made edits no longer generates a tileId error message.
+
+When you edit and save a dashboard, unaffected tiles with long running jobs no longer recalculate unnecessarily.
+
+Geo variable settings now load correctly on a dashboard map when you log out and back into Orbit.
+
+Stacked chart legends no longer ignore any tile filters you've set.
